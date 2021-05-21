@@ -1,0 +1,46 @@
+ 1) ssh demo@linuxzoo.net
+   Senha: demo
+
+*Para logar no ssh do linuxzoo
+
+
+2) cal 12 2002
+  vi q_2.sh 
+  chmod +x q_2.sh
+  ./q_2.sh
+  
+3) cd yearfile 
+   cal 2005
+   vi q_3.sh
+   chmod +x q_3.sh 
+   ./q_3.sh
+   
+4) ls -al
+   15 arquvios. 
+   vi q_4.sh
+   chmod +x q_4.sh 
+   ./q_4.sh
+   
+   
+ 5) ls -al
+   vi q_5.sh
+   chmod +x q_5.sh 
+   ./q_5.sh
+   17 o menor tamanho. 
+   
+  7) vi q_7.sh
+     cp thismonth letters/
+     mv letters/thismonth letters/let1.doc
+     cd letters
+     cp yearfile1.doc yearfile2.doc
+     cp yearfile1.doc yearfile3.doc
+     ls
+     
+   8) vi q_8.sh
+      mv yearfile3 thisyear
+      
+   9) vi q_9.sh
+      rm yearfile  
+      
+   10) vi q_10.sh
+       cat thismonth thisyear yearfile2  >bigfile   
