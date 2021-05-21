@@ -29,6 +29,8 @@
    17 o menor tamanho. 
    
   7) vi q_7.sh
+     chmod +x q_7.sh
+     ./q_7.sh
      cp thismonth letters/
      mv letters/thismonth letters/let1.doc
      cd letters
@@ -37,10 +39,16 @@
      ls
      
    8) vi q_8.sh
+      chmod +x q_8.sh
+      ./q_8.sh
       mv yearfile3 thisyear
       
    9) vi q_9.sh
+      chmod +x q_9.sh
+      ./q_9.sh
       rm yearfile  
       
    10) vi q_10.sh
+       chmod +x q_10.sh
+       ./q_10.sh
        cat thismonth thisyear yearfile2  >bigfile   
