@@ -1,0 +1,38 @@
+2) vi intro_q2
+   chmod +x intro_q2.sh
+   ./intro_q2.sh
+   mkdir work demo scripts
+   cd \work
+   mkdir progs tutorial misc
+   
+3) vi intro_q3 
+  chmod +x intro_q3.sh
+  ./intro_q3.sh
+  cp /etc/vimrc \work/misc  
+  
+ 4) vi intro_q34
+    chmod +x intro_q4.sh
+    ./intro_q4.sh
+    d \work/misc
+    mv \vimrc /progs 
+ 
+ 5) 
+ 
+ 6)  vi intro_q6 
+     chmod +x intro_q6.sh
+     ./intro_q6.sh  
+     cd \scripts 
+     ls -l
+     
+  7) vi intro_q7 
+     chmod +x intro_q7.sh
+     ./intro_q7.sh 
+     cd ~mysql
+     pwd   
+     
+  8) vi intro_q8 
+     chmod +x intro_q8.sh
+      ./intro_q8.sh
+      mkdir My Documents
+      mkdir gordon
+      mkdir Gordon
