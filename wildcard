@@ -1,0 +1,17 @@
+2) vi wildcard_q2.sh
+   chmod +x wildcard_q2.sh
+   .\wildcard_q2.sh
+   cd/home/demo
+   cp*file ./work/
+  
+ 3) vi wildcard_q3.sh
+   chmod +x wildcard_q3.sh
+   .\wildcard_q3.sh
+   cp thismonth letters/let1
+   cd letters
+   cp let1 let2
+   cp let1 let3
+   ls
+   let1.doc let2.doc let3.doc
+   
+4)    
