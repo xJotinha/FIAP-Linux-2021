@@ -1,2 +1,84 @@
-2) vi 
-cat club_members names | sort > s1
+2) vi pipe_q2.sh
+   chmod +x pipe_q2.sh
+   ./pipe_q2.sh
+   cat club_members names 
+   sort > s1
+   
+3) vi pipe_q3.sh
+   chmod +x pipe_q3.sh
+   ./pipe_q3.sh
+   cat club_members name
+   sort -r >s2
+   
+4) vi pipe_q4.sh
+   chmod +x pipe_q4.sh
+   ./pipe_q4.sh
+   cat club_members
+   sort -n -k 5 > s3
+   
+   
+   
+5) vi pipe_q5.sh
+   chmod +x pipe_q5.sh
+   ./pipe_q5.sh
+   cat /etc/passwd
+   sort -n -k 3 -t : > s4
+ 
+ 
+ 6) vi pipe_q6.sh
+   chmod +x pipe_q6.sh
+   ./pipe_q6.sh
+   cat /usr/share/dict/words
+   grep wta
+   
+7) vi pipe_q7.sh
+   chmod +x pipe_q7.sh
+   ./pipe_q7.sh
+   grep 'x' /usr/share/dict/words
+   wc –w
+    
+ 8) vi pipe_q8.sh
+   chmod +x pipe_q8.sh
+   ./pipe_q8.sh
+   grep -n -v nologin /etc/passwd > s5
+   
+ 
+ 9) vi pipe_q9.sh
+   chmod +x pipe_q9.sh
+   ./pipe_q9.sh
+   ls -l /etc | grep Jun > s6
+   
+ 10) vi pipe_q10.sh
+   chmod +x pipe_q10.sh
+   ./pipe_q10.sh
+   ls -l /etc/
+   sort -k 5,5 -nr
+   grep Jun > s7
+   
+  11) vi pipe_q11.sh
+   chmod +x pipe_q11.sh
+   ./pipe_q11.sh
+   find /var -user root > s8
+   
+  12) vi pipe_q12.sh
+     chmod +x pipe_q12.sh
+     ./pipe_q12.sh
+     find /etc -name *.conf > s9
+   
+  13) vi pipe_q13.sh
+     chmod +x pipe_q13.sh
+   ./pipe_q13.sh
+   find /home/demo -newer s1
+   tee /var/tmp/t1
+   
+   14) vi pipe_q14.sh
+   chmod +x pipe_q14.sh
+   ./pipe_q14.sh
+   find /etc/ -size +1024kb > s10
+   
+   15) vi pipe_q15.sh
+   chmod +x pipe_q15.sh
+   ./pipe_q15.sh
+   find /usr/include –type f –name ‘s*’ –size -25 –exec cp {} /home/demo/smallc \;
+ 
+   
